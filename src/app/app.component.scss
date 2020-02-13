@@ -1,0 +1,17 @@
+.conteudo {
+  background-color: white;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 10px 10px 14px #00000057;
+}
+.menu-itens {
+  list-style: none;
+  cursor: pointer;
+  border-bottom: 1px solid #E5E3E3;
+
+  li {
+  display: inline;
+  }
+}
+.textarea {
+  height: 330px;
+}

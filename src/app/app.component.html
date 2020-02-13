@@ -1,1 +1,32 @@
-<h1>Hello World</h1>
+<div class="container">
+ <div class="row">
+   <div class="col-md-12 d-flex justify-content-center">
+     <div class="conteudo mt-5 col-md-10">
+
+      <!-- Paleta -->
+      <div class="paleta-itens">
+
+        <ul class="menu-itens">
+          <li *ngFor="let icon of this.icones">
+            <mat-icon aria-hidden="false" aria-label="" class="mr-2 mt-3" (click)="this.evento($event)">{{ icon.icon }}</mat-icon>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="container">
+
+        <mat-form-field class="example-full-width col-md-12">
+          <!-- <mat-label>Leave a comment</mat-label> -->
+          <textarea matInput class="textarea" (dblclick)="this.text($event)"></textarea>
+        </mat-form-field>
+
+      </div>
+
+
+     </div>
+   </div>
+
+  </div>
+
+</div>
